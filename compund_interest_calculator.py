@@ -42,6 +42,7 @@ while True:
             print("Invalid input! Enter amount of time in years")
         else:
             break
+
     except ValueError:
         print("Invalid input! Enter numeric values: ")
 total = principle * pow((1 + rate / 100), time_elapsed)
